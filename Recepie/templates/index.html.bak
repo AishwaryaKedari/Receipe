@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Welcome to Khana Khajana</title>
+    <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="logo"><img src="../static/logo.png">Khana &nbsp;Khajana</div>
+		<nav>  
+			<ul>
+				<li><a href="{{url_for('index')}}">Home</a>
+				<li><a href="{{url_for('maharashtrian')}}">Maharashtrain</a>
+				<li><a href="{{url_for('search')}}">Search</a>
+				<li><a href="{{url_for('south')}}">South</a>
+				
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<strong>“A recipe has no soul. You, as the cook, must bring soul to the recipe.”</strong>
+	</section>
+	<section id="pageContent">
+		<main role="main">
+			<article>
+				<h2> Healty Food</h2>
+				<p> A vast number of foods are both healthy and tasty. By filling your plate with fruits, vegetables, quality protein, and other whole foods, you’ll have meals that are colorful, versatile, and good for you</p>
+			</article>
+			<article>
+				<h2>Maharashtrian Food</h2>
+				<p>What is special about Maharashtrian food? Image result for maharashtrian food is healthy It has distinctive attributes, while sharing much with other Indian cuisines. Traditionally, Maharashtrians have considered their food to be more austere than others. Maharashtrian cuisine includes mild and spicy dishes. Wheat, rice, jowar, bajri, vegetables, lentils and fruit are dietary staples.</p>
+			</article>
+			<article>
+				<h2> South Indian food</h2>
+				<p> Coconut  is native to Southern India and spread to Europe, Arabia, and Persia through the southwestern Malabar Coast of South India over the centuries.Coconut of Indian origin was brought to the Americas by Portuguese merchants. Black pepper is also native to the Malabar Coast of India, and the Malabar pepper is extensively cultivated there.The region offers a wide variety of vegetarian and non-vegetarian dishes with each state holding its own uniqueness and food habits. Some authentic and popular South Indian dishes that are sure to delight taste buds include Chakra Pongal, Sambar and Vadai from Tamil Nadu; Rava Idli from Karnataka, Kadala Curry and Appam from Kerala and Kebabs and Biryanis from Andhra Pradesh.  </p>
+			</article>
+						<article>
+				<h2> Panjabi Food</h2>
+				<p>The local cuisine of Punjab is heavily influenced by the agriculture and farmer lifestyle, which is one of the main reason Punjabi cuisine is so famous in all over India.The rich blend of spices and various ingredients makes it one of the most famous cuisines in India and Canada as well.There are many styles of cooking in Punjab. In the villages many people still employ the traditional methods and equipment for cooking purposes. This includes wood-fired and masonry ovens. Modern methods include cooking on gas cookers. Tandoori style of cooking involves use of the tandoor.The local cuisine of Punjab is heavily influenced by the agriculture and farming lifestyle prevalent from the times of the ancient Indus Valley Civilization. Locally grown staple foods form the major part of the local cuisine. Distinctively Punjabi cuisine is known for its rich, buttery flavours along with the extensive vegetarian and meat dishes. Main dishes include sarhon dā saâg (a stew whose main ingredient is mustard greens) and makki di roti (flatbreads made with cornmeal).
+
+</p>
+			</article>
+
+		</main>
+		<aside>
+		
+			<br><br><br><br><br><div><img src="../static/indian.png"></div><br>
+			<div><img src="../static/south.png"></div>
+			<div><img src="../static/punjabi.jpg"></div>
+		</aside>
+	</section>
+	<footer>
+		<p>&copy; You can copy, edit and publish this template but please leave a link to our website | <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a></p>
+		<address>
+			Contact: <a href="mailto:me@example.com">Mail me</a>
+		</address>
+	</footer>
+
+
+</body>
+
+</html>
